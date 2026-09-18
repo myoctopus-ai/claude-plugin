@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "octopus",
+      "name": "octopus-ai",
       "source": "./",
       "description": "Connects to Octopus AI's Leo and adds FP&A workflows: multi-version comparison reporting, forecast quality scoring, and root-cause variance investigation."
     }

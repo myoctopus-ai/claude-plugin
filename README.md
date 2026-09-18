@@ -6,13 +6,13 @@ Claude Code plugin marketplace for Octopus AI. Connects Claude to Octopus AI's L
 
 ```bash
 claude plugin marketplace add https://github.com/myoctopus-ai/claude-plugin.git
-claude plugin install octopus
+claude plugin install octopus-ai
 ```
 
 ## Update
 
 ```bash
-claude plugin update octopus
+claude plugin update octopus-ai
 ```
 
 ## What's included
@@ -75,7 +75,7 @@ All three skills reference a chat tool generically as `~~chat` for sharing finis
 
 ## Releasing a change
 
-Edit the plugin's files, bump `.claude-plugin/plugin.json`'s `version`, commit, and push to `main`. Customers pick it up on their next `claude plugin update octopus`.
+Edit the plugin's files, bump `.claude-plugin/plugin.json`'s `version`, commit, and push to `main`. Customers pick it up on their next `claude plugin update octopus-ai`.
 
 ## Version
 
