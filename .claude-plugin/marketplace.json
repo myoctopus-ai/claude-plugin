@@ -1,9 +1,14 @@
 {
   "name": "octopus-marketplace",
+  "description": "Octopus AI's Claude Code plugin marketplace.",
+  "owner": {
+    "name": "Octopus AI",
+    "url": "https://app.myoctopus.ai"
+  },
   "plugins": [
     {
       "name": "octopus",
-      "source": ".",
+      "source": "./",
       "description": "Connects to Octopus AI's Leo and adds FP&A workflows: multi-version comparison reporting, forecast quality scoring, and root-cause variance investigation."
     }
   ]
