@@ -26,7 +26,7 @@ Confirm the comparison basis explicitly. An "overspend" against budget is often 
 
 ## Tier 1 — Confirm the variance is real
 
-Pull the headline figures from the Leo connector. List its available tools first and choose those exposing actuals, plan values, and hierarchy — do not assume tool names.
+Pull the headline figures from the Octopus AI connector. List its available tools first and choose those exposing actuals, plan values, and hierarchy — do not assume tool names.
 
 Check before investigating further:
 

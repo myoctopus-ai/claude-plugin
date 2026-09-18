@@ -1,6 +1,6 @@
 # Octopus
 
-Claude Code plugin marketplace for Octopus AI. Connects Claude to Octopus AI's Leo — a conversational connection plus a set of direct, deterministic tools for data and messaging — and adds three FP&A workflows on top.
+Claude Code plugin marketplace for Octopus AI. Connects Claude to Octopus AI — a conversational connection plus a set of direct, deterministic tools for data and messaging — and adds three FP&A workflows on top.
 
 ## Install
 
@@ -19,8 +19,8 @@ claude plugin update octopus-ai
 
 | Component | Name | Purpose |
 | --- | --- | --- |
-| MCP server | Leo | Connection to Octopus AI at `https://app.myoctopus.ai/mcp` |
-| Tool | Ask Octopus | Conversational access to Leo, with your existing permissions, actions and history |
+| MCP server | Octopus AI | Connection to Octopus AI at `https://app.myoctopus.ai/mcp` |
+| Tool | Ask Octopus | Conversational access to Octopus AI, with your existing permissions, actions and history |
 | Tool | Explore dimension hierarchy | List a dimension's hierarchies, or walk one's node tree (a node's immediate children, or the full subtree) |
 | Tool | Get user/org preferences | Read the stored exclusions, visibility rules, and display settings for you and your organization |
 | Tool | Search insights | Search org memory — insights and discussion — by semantic query, dimension, person, and date range, all optional |
@@ -36,9 +36,9 @@ Every tool above is read-only except "Send a question."
 
 ## Setup
 
-Installing the plugin adds the Leo connector. Sign in to Octopus AI when prompted — Leo uses an OAuth sign-in flow, so there is no API key to configure and no environment variables to set.
+Installing the plugin adds the Octopus AI connector. Sign in when prompted — it uses an OAuth sign-in flow, so there is no API key to configure and no environment variables to set.
 
-Confirm the connection by asking Claude what Leo data is available before running a skill or tool.
+Confirm the connection by asking Claude what Octopus AI data is available before running a skill or tool.
 
 ## Usage
 

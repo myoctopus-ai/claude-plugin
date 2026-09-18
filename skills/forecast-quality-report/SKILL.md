@@ -29,7 +29,7 @@ Do not guess the version pair. Scoring against the wrong baseline produces a mea
 
 ## Find the material movements
 
-Use the Leo connector for all figures. List the connector's available tools first and pick the ones that expose plan figures by version and hierarchy metadata — do not assume tool names.
+Use the Octopus AI connector for all figures. List the connector's available tools first and pick the ones that expose plan figures by version and hierarchy metadata — do not assume tool names.
 
 Compute, at the agreed level: prior value, current value, delta, delta % per line, exactly as in a version comparison. Apply the materiality threshold to get the scored set — every line at or above it. This set is the denominator; nothing below the threshold enters the score in either direction.
 
