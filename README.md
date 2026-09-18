@@ -29,8 +29,9 @@ claude plugin update octopus-ai
 | Tool | List channels and users | Who and where a question or message could go |
 | Tool | Send a question | A tracked ask to an explicit channel/person, or auto-routed by business slice |
 | Tool | Question status | Which sent questions are answered versus still open |
+| Tool | Search questions asked | The questions asked in a date window or about a business slice — who asked, who answered, the reply, and the insight it became |
 | Skill | Version Comparison Report | Compares two or more versions — forecast, budget, working, actuals — with a red/amber/green status per line, and exports a deck or spreadsheet |
-| Skill | Forecast Quality Report | Scores a forecast by how many of its material movements have a recorded driver versus are unexplained gaps, and exports a deck of action items — questions to send for the gaps, follow-ups derived from the explanations you do have |
+| Skill | Forecast Quality Report | Scores a forecast against the version it replaced: cost risks and saving opportunities, which have a human explanation on record (by whom, how good), which are unexplained gaps, and one page of actions to get the missing reasons |
 | Skill | Variance Investigation | Works a budget-vs-actual gap from headline down to transaction-level cause |
 
 Every tool above is read-only except "Send a question."
@@ -58,7 +59,7 @@ Claude will confirm which versions, the period, the level of detail, the materia
 - "How many of the changes since last roll were actually explained?"
 - "Score this roll's forecast quality"
 
-Claude will confirm the forecast/prior-forecast pair, period, and materiality threshold, then build a deck with a count score and a dollar-weighted score, every unexplained gap ranked and offered up as a question to send, and an action-item derived from every explanation you do have on file (or "no action" when the explanation is already definitive).
+Claude confirms the forecast under review, period, level and materiality threshold (the baseline is always the version it replaced; revenue is excluded unless asked), then builds a deck: a cover with the FY / YTD / YTG movement color-coded by risk and saving opportunity, the score, every material movement with its recorded explanation, who gave it and how well it was explained, the records that only look like explanations, and one closing page of actions — each tied to what a fuller reason would let the org do.
 
 **Variance investigation** — trigger with phrases like:
 
