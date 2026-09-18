@@ -5,7 +5,7 @@ Claude Code plugin marketplace for Octopus AI. Connects Claude to Octopus AI's L
 ## Install
 
 ```bash
-claude plugin marketplace add https://github.com/myoctopus-ai/claude-plugin.git
+claude plugin marketplace add https://github.com/myoctopus-ai/octopus-ai-plugin.git
 claude plugin install octopus-ai
 ```
 
