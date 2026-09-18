@@ -24,7 +24,8 @@ claude plugin update octopus-ai
 | Tool | Explore dimension hierarchy | List a dimension's hierarchies, or walk one's node tree (a node's immediate children, or the full subtree) |
 | Tool | Get user/org preferences | Read the stored exclusions, visibility rules, and display settings for you and your organization |
 | Tool | Search insights | Search org memory — insights and discussion — by semantic query, dimension, person, and date range, all optional |
-| Tool | Query data | Plan or transaction figures for a business slice, grouped or (transactions) row-level |
+| Tool | Get forecast legend | The organization's forecast-version numbers and their display names (version names vary by org) |
+| Tool | Query data | Plan or transaction figures for a business slice, grouped or (transactions) row-level — takes forecast version numbers, not names |
 | Tool | List channels and users | Who and where a question or message could go |
 | Tool | Send a question | A tracked ask to an explicit channel/person, or auto-routed by business slice |
 | Tool | Question status | Which sent questions are answered versus still open |
