@@ -30,7 +30,7 @@ claude plugin update octopus-ai
 | Tool | Send a question | A tracked ask to an explicit channel/person, or auto-routed by business slice |
 | Tool | Question status | Which sent questions are answered versus still open |
 | Skill | Version Comparison Report | Compares two or more versions — forecast, budget, working, actuals — with a red/amber/green status per line, and exports a deck or spreadsheet |
-| Skill | Forecast Quality Report | Scores a forecast by how many of its material movements from the prior version have a recorded driver versus are left hanging |
+| Skill | Forecast Quality Report | Scores a forecast by how many of its material movements have a recorded driver versus are unexplained gaps, and exports a deck of action items — questions to send for the gaps, follow-ups derived from the explanations you do have |
 | Skill | Variance Investigation | Works a budget-vs-actual gap from headline down to transaction-level cause |
 
 Every tool above is read-only except "Send a question."
@@ -58,7 +58,7 @@ Claude will confirm which versions, the period, the level of detail, the materia
 - "How many of the changes since last roll were actually explained?"
 - "Score this roll's forecast quality"
 
-Claude will confirm the forecast/prior-forecast pair, period, and materiality threshold, then report a count score and a dollar-weighted score, with every hanging (unexplained) movement listed and offered up as a question to send.
+Claude will confirm the forecast/prior-forecast pair, period, and materiality threshold, then build a deck with a count score and a dollar-weighted score, every unexplained gap ranked and offered up as a question to send, and an action-item derived from every explanation you do have on file (or "no action" when the explanation is already definitive).
 
 **Variance investigation** — trigger with phrases like:
 
